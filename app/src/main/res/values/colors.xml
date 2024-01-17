@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="gold">#B7935F</color>
+    <color name="light_gold">#F1D5AC</color>
+    <color name="light_black">#242424</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
