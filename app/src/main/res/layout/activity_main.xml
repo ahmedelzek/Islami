@@ -11,7 +11,7 @@
         android:id="@+id/navBarBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/gold"
+        android:background="@drawable/nav_bar_background"
         android:layoutDirection="rtl"
         app:itemActiveIndicatorStyle="@color/black"
         app:itemIconSize="40dp"

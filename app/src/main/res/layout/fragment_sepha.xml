@@ -65,6 +65,7 @@
         app:layout_constraintTop_toBottomOf="@id/sepha_body_image" />
 
     <TextView
+        android:id="@+id/sepha_zikr_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
@@ -74,7 +75,7 @@
         android:paddingHorizontal="20dp"
         android:text="سبحان الله"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/sepha_counter_text_view" />
