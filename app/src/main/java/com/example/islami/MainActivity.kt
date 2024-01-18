@@ -48,7 +48,8 @@ class MainActivity : AppCompatActivity() {
     private fun loadFragment(fragment: Fragment) {
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragment_container, fragment)
-        transaction.commit()
+            .addToBackStack(null)
+            .commit()
     }
 
     private fun loadQuranFragment(savedInstanceState: Bundle?) {
